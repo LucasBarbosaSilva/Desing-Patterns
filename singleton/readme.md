@@ -1,0 +1,9 @@
+- Apenas uma instância de uma classe qualquer
+- Deixar o construtor privado
+- Criar uma variável do tipo estática que é uma instancia da própria classe.
+- Interessante de usar quando a classe não tem nenhum estado, não tem outras variáveis, ela serve simplesmente pra usar um método específico.
+- 2ª Forma:
+    - A instancia deixa de ser static e final
+    - Crio um método getInstance() que verifica se a instancia tá criada ou não e se não tiver criada ela vai criar.
+- 3ª Forma:
+    - Utilizar o Enum para criar uma instancia única da classe.
